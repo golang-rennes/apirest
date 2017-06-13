@@ -19,7 +19,7 @@ const (
 func main() {
 	r := mux.NewRouter()
 	// curl -i -X GET localhost:8888/users && echo
-	r.HandleFunc("/users", listUsers)
+	r.HandleFunc("/users", listUsers).Methods(http.MethodGet)
 
 	// curl -i -X GET localhost:8888/users/1789 && echo
 	// curl -i -X GET localhost:8888/users/2017 && echo
