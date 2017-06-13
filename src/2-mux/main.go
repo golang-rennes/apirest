@@ -29,6 +29,7 @@ func main() {
 	r.HandleFunc("/users/{id:[0-9]+}", getUser).Methods(http.MethodGet)
 
 	// curl -i -X POST localhost:8888/users -d '{"firstname":"toto", "lastname":"titi"}' && echo
+	r.HandleFunc("/users", createUser).Methods(http.MethodPost)
 
 	server := fmt.Sprintf("%s:%d", host, port)
 	log.Printf("Serving API on http://%s…", server)
