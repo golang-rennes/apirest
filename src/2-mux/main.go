@@ -24,6 +24,7 @@ func main() {
 	// curl -i -X GET localhost:8888/users/1789 && echo
 	// curl -i -X GET localhost:8888/users/2017 && echo
 	// curl -i -X GET localhost:8888/users/2020 && echo
+	r.HandleFunc("/users/{id}", getUser).Methods(http.MethodGet)
 
 	// curl -i -X POST localhost:8888/users -d '{"firstname":"toto", "lastname":"titi"}' && echo
 
