@@ -14,10 +14,13 @@ func (u *userResource) register(container *restful.Container) {
 
 	// define routes
 	// curl -i -X GET localhost:8888/users && echo
+	ws.Route(ws.GET("/").To(listUsers))
 
 	// curl -i -X GET localhost:8888/users/1789 && echo
+	ws.Route(ws.GET("/{id}").To(getUser))
 
 	// curl -i -X POST localhost:8888/users -d '{"firstname":"toto", "lastname":"titi"}' && echo
+	ws.Route(ws.POST("/").To(createUser))
 
 	container.Add(ws)
 }

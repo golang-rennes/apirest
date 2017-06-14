@@ -14,7 +14,9 @@ const (
 )
 
 // time repeat.sh 1000 curl -i -X GET localhost:8888/users >& /dev/null
+// => 5-6ms
 // time repeat.sh 1000 curl -i -X GET localhost:8888/users/1789 >& /dev/null
+// => 6ms
 
 func main() {
 	// initialize go-restful container
