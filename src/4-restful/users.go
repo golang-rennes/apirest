@@ -5,16 +5,25 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
+	"strings"
 
 	restful "github.com/emicklei/go-restful"
 )
 
-func listUsers(req *restful.Request, resp *restful.Response) {
+func findUsers(req *restful.Request, resp *restful.Response) {
+	// get query parameter
+	firstname := strings.TrimSpace(req.QueryParameter("firstname"))
+
 	// get users
-	allUsers := data.GetAll()
+	var users []*data.User
+	if firstname == "" {
+		users = data.GetAll()
+	} else {
+		users = data.GetByFirstname(firstname)
+	}
 
 	// return users
-	resp.WriteEntity(allUsers)
+	resp.WriteEntity(users)
 }
 
 func getUser(req *restful.Request, resp *restful.Response) {
