@@ -23,8 +23,10 @@ const (
 func main() {
 	server := fmt.Sprintf("%s:%d", host, port)
 
-	// initialize go-restful container
+	// initialize go-restful container and filters
 	wsContainer := restful.NewContainer()
+	wsContainer.Filter(logger)
+	wsContainer.Filter(wsContainer.OPTIONSFilter)
 
 	// register web services
 	userRsc := &userResource{}
