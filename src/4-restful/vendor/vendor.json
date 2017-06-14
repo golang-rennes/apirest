@@ -3,16 +3,118 @@
 	"ignore": "test data/",
 	"package": [
 		{
+			"checksumSHA1": "NX4v3cbkXAJxFlrncqT9yEUBuoA=",
+			"path": "github.com/PuerkitoBio/purell",
+			"revision": "b938d81255b5473c57635324295cb0fe398c7a58",
+			"revisionTime": "2017-03-24T13:41:32Z"
+		},
+		{
+			"checksumSHA1": "pvmScnaMFuAVLTxxOWjhGZBgPkg=",
+			"path": "github.com/PuerkitoBio/urlesc",
+			"revision": "bbf7a2afc14f93e1e0a5c06df524fbd75e5031e5",
+			"revisionTime": "2017-03-24T14:02:28Z"
+		},
+		{
 			"checksumSHA1": "95WQb+qcV7gHpUvZymh7TssLh1Q=",
 			"path": "github.com/emicklei/go-restful",
 			"revision": "ff4f55a206334ef123e4f79bbf348980da81ca46",
 			"revisionTime": "2017-04-10T11:07:28Z"
 		},
 		{
+			"checksumSHA1": "TtCLhK6WiF7VuLVyE4JEnjnRwTU=",
+			"path": "github.com/emicklei/go-restful-openapi",
+			"revision": "72557b7ecf86456a77114af5c917e83158a5f31f",
+			"revisionTime": "2017-05-09T20:15:13Z"
+		},
+		{
 			"checksumSHA1": "rmsBHtFpV3osid71XnTZBo/b3bU=",
 			"path": "github.com/emicklei/go-restful/log",
 			"revision": "ff4f55a206334ef123e4f79bbf348980da81ca46",
 			"revisionTime": "2017-04-10T11:07:28Z"
+		},
+		{
+			"checksumSHA1": "6dTGC5A1Y1xnv+JSi9z8S6JfnH0=",
+			"path": "github.com/go-openapi/jsonpointer",
+			"revision": "779f45308c19820f1a69e9a4cd965f496e0da10f",
+			"revisionTime": "2017-01-02T17:42:23Z"
+		},
+		{
+			"checksumSHA1": "YMNc0I/ifBw9TsnF13NTpIN9yu4=",
+			"path": "github.com/go-openapi/jsonreference",
+			"revision": "36d33bfe519efae5632669801b180bf1a245da3b",
+			"revisionTime": "2016-11-05T16:21:50Z"
+		},
+		{
+			"checksumSHA1": "npBtiWb04uPnM6G+hJFBVrxVJgI=",
+			"path": "github.com/go-openapi/spec",
+			"revision": "e81a13315ac92ce3e73075856c5cd50301695405",
+			"revisionTime": "2017-06-06T21:31:32Z"
+		},
+		{
+			"checksumSHA1": "Wz6dE9E9ZwCK4oWRr5lNazhgMY0=",
+			"path": "github.com/go-openapi/swag",
+			"revision": "f3f9494671f93fcff853e3c6e9e948b3eb71e590",
+			"revisionTime": "2017-06-06T14:27:51Z"
+		},
+		{
+			"checksumSHA1": "T8soMJArSZrYnhmdpAnq1bVxQ6Q=",
+			"path": "github.com/mailru/easyjson/buffer",
+			"revision": "44c0351a5bc860bcb2608d54aa03ea686c4e7b25",
+			"revisionTime": "2017-05-30T08:38:06Z"
+		},
+		{
+			"checksumSHA1": "Xw5HIdQ2vlr5wkKl+8ANM9xp5Zs=",
+			"path": "github.com/mailru/easyjson/jlexer",
+			"revision": "44c0351a5bc860bcb2608d54aa03ea686c4e7b25",
+			"revisionTime": "2017-05-30T08:38:06Z"
+		},
+		{
+			"checksumSHA1": "tMeVsfYgDW9K0spDZkOBlvZYssw=",
+			"path": "github.com/mailru/easyjson/jwriter",
+			"revision": "44c0351a5bc860bcb2608d54aa03ea686c4e7b25",
+			"revisionTime": "2017-05-30T08:38:06Z"
+		},
+		{
+			"checksumSHA1": "VrzPJyWI6disCgYuVEQzkjqUsJk=",
+			"path": "golang.org/x/net/idna",
+			"revision": "dfe83d419c9403b40b19d08cdba2afec27b002f7",
+			"revisionTime": "2017-06-09T23:50:55Z"
+		},
+		{
+			"checksumSHA1": "faFDXp++cLjLBlvsr+izZ+go1WU=",
+			"path": "golang.org/x/text/secure/bidirule",
+			"revision": "3491b61b9edc56653ad4333e605e2908e46a036b",
+			"revisionTime": "2017-06-09T08:37:55Z"
+		},
+		{
+			"checksumSHA1": "ziMb9+ANGRJSSIuxYdRbA+cDRBQ=",
+			"path": "golang.org/x/text/transform",
+			"revision": "3491b61b9edc56653ad4333e605e2908e46a036b",
+			"revisionTime": "2017-06-09T08:37:55Z"
+		},
+		{
+			"checksumSHA1": "KG+XZAbxdkpBm3Fa3bJ3Ylq8CKI=",
+			"path": "golang.org/x/text/unicode/bidi",
+			"revision": "3491b61b9edc56653ad4333e605e2908e46a036b",
+			"revisionTime": "2017-06-09T08:37:55Z"
+		},
+		{
+			"checksumSHA1": "Anof4bt0AU+Sa3R8Rq0KBnlpbaQ=",
+			"path": "golang.org/x/text/unicode/norm",
+			"revision": "3491b61b9edc56653ad4333e605e2908e46a036b",
+			"revisionTime": "2017-06-09T08:37:55Z"
+		},
+		{
+			"checksumSHA1": "/kqvbsH5mRknhs6xf7cJii0wQos=",
+			"path": "golang.org/x/text/width",
+			"revision": "3491b61b9edc56653ad4333e605e2908e46a036b",
+			"revisionTime": "2017-06-09T08:37:55Z"
+		},
+		{
+			"checksumSHA1": "fALlQNY1fM99NesfLJ50KguWsio=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b",
+			"revisionTime": "2017-04-07T17:21:22Z"
 		}
 	],
 	"rootPath": "4-restful"
